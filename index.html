@@ -1,0 +1,302 @@
+
+<!DOCTYPE html>
+<HEAD>
+
+<TITLE>Michael Wasney</TITLE>
+<!--This website design is based on Joshua Plotkin's website, [here](http://mathbio.sas.upenn.edu/) -->
+
+<STYLE type="text/css">
+
+body
+{
+margin: 20px;
+padding: 20px;
+font-family: "Avenir", sans-serif, Courier, Serif;
+
+}
+
+DIV.content
+{
+border: 0px solid #5f5f5f;
+width: 525px;
+margin: 0;
+padding: 1em;
+position: absolute;
+background-color: #FFFFFF;
+left: 240px;
+top: 20px;
+}
+
+DIV.bar
+{
+border: 0px solid #5f5f5f;
+width: 200px;
+height: 300px;
+margin: 0;
+padding: 0;
+position: absolute;
+left: 65px;
+top: 45px;
+text-align: right;
+}
+
+
+p.link
+{
+color: black;
+font-family: "Avenir", sans-serif, Courier, Serif;
+font-size: 16px;
+font-weight: bold;
+text-align: left;
+}
+
+
+a:link, a:link.inlink, a:visited.inlink, a:visited
+{
+color: #0000FF;
+}
+
+
+a:link.minlink, a:visited.minlink
+{
+color: #000000;
+text-decoration: none;
+font-weight: bold;
+}
+
+a:hover, a:hover.inlink, a:hover.minlink
+{
+color: #EEC900;
+text-decoration: none;
+font-weight: bold;
+}
+
+.footer {
+  position: fixed;
+margin: 0;
+padding: 0;
+left: 50px;
+bottom: 20px;
+  }
+
+
+
+
+#contact
+{
+display: none;
+}
+
+#abstract
+{
+display: block;
+}
+
+#research
+{
+display: none;
+}
+
+#CV
+{
+display: none;
+}
+
+#media
+{
+display: none;
+}
+
+
+</STYLE>
+
+<SCRIPT type="text/javascript">
+
+function homeShow()
+{
+document.getElementById("abstract").style.display="block";
+document.getElementById("contact").style.display="none";
+document.getElementById("research").style.display="none";
+document.getElementById("CV").style.display="none";
+document.getElementById("media").style.display="none";
+}
+
+function contactShow()
+{
+document.getElementById("contact").style.display="block";
+document.getElementById("research").style.display="none";
+document.getElementById("CV").style.display="none";
+document.getElementById("abstract").style.display="none";
+document.getElementById("media").style.display="none";
+}
+
+function researchShow()
+{
+document.getElementById("contact").style.display="none";
+document.getElementById("research").style.display="block";
+document.getElementById("CV").style.display="none";
+document.getElementById("abstract").style.display="none";
+document.getElementById("media").style.display="none";
+}
+
+function CVShow()
+{
+document.getElementById("contact").style.display="none";
+document.getElementById("research").style.display="none";
+document.getElementById("CV").style.display="block";
+document.getElementById("abstract").style.display="none";
+document.getElementById("media").style.display="none";
+}
+
+function mediaShow()
+{
+document.getElementById("contact").style.display="none";
+document.getElementById("research").style.display="none";
+document.getElementById("media").style.display="block";
+document.getElementById("CV").style.display="none";
+document.getElementById("abstract").style.display="none";
+
+
+}
+
+</SCRIPT>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-32460469-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+</HEAD>
+
+
+<BODY>
+
+
+<!--<img src="MW-deathvalley.jpg" width="12%" height="12%"><br>-->
+<DIV class="bar">
+
+
+<P class="link"><A href="#" class="minlink" onclick="homeShow();">Home</A></P>
+<P class="link"><A href="#" class="minlink" onclick="researchShow();">Research</A></P>
+<P class="link"><A href="#" class="minlink"
+       onclick="CVShow();">Brief CV</A></P>
+<P class="link"><A href="#" class="minlink"
+       onclick="contactShow();">Contact</A></P>
+
+</DIV>
+
+
+
+<DIV class="content">
+
+
+
+  <DIV id="abstract">
+
+<h2> Jonathan Mah </h2>
+<hr>
+<img src = "MW-deathvalley.jpg" width = "30%" height = "30%" style="float:left;margin:0 15px 0 0px;">
+<p>
+  I am a computational evolutionary biologist interested in the eco-evolutionary forces 
+  that shape genetic diversity in natural populations, with an emphasis on microbial populations. I am currently a PhD candidate at UCLA, working in the 
+  <a href="https://garud.eeb.ucla.edu/"
+    class = "minlink">Garud Lab</a>
+  in UCLA's department of Ecology and Evolutionary Biology, where I research the spatial distribution of genetic diversity in the gut microbiome, 
+  the dynamics of adaptation in the context of microbial invasion, and other topics. 
+  </p>
+
+  <p>
+  I am also interested in science pedagogy. As a PhD student at UCLA, I have tought a variety of courses at UCLA on subjects ranging on population genetics to computational analysis of microbial sequencing data. 
+  I also have served as a mentor to undergraduate participating in the 
+  <a href="https://qcb.ucla.edu/big-summer/"
+    class = "minlink">Bruins-In-Genomics (B.I.G) Summer Program</a>
+  and the 
+  <a href="https://bioscience.ucla.edu/bsp/"
+    class = "minlink">Bioscience Scholars Program (BSP)</a>, two summer research experience for undergraduates (REU) programs hosted by UCLA, 
+  the latter which focuses on providing research experiences to students from underrepresented minority groups. 
+  I am passionate about using my position in academia to make STEM education more accessible to the next generation of potential scientists.
+</p>
+  </DIV>
+
+
+
+  <DIV id="contact">
+
+<h2>Contact</h2>
+<hr>
+<ul style="list-style: none;">
+<li>E-mail:
+  <a href="mailto:michaelwasney@ucla.edu"
+    class = "minlink">michaelwasney@ucla.edu</a><br>
+<li>Office: Life Sciences Building, 4114<br>UCLA<br>Los Angeles, CA 90095<br></li>
+<li>Github:
+  <a href="https://github.com/michaelwasney"
+    class = "minlink"> michaelwasney</a><br>
+
+</ul>
+
+You can also find me on Bluesky, <a href="https://bsky.app/profile/michaelwasney.bsky.social" class =
+    "minlink">@michaelwasney.bsky.social</a>. <br> <br>
+
+</DIV>
+
+
+<DIV id="research">
+<h2>Research</h2>
+    <hr>
+
+Here are some of the projects I have worked on over the past several
+  years.
+  <br>
+ <hr>
+<em> Uniform bacterial genetic diversity along the guts of mice inoculated with human stool </em> [In review]
+  <br><br>  <u>Michael Wasney</u>*,  Leah Briscoe*, Richard Wolff, Hans Ghezzi,  Carolina Tropini,  Nandita Garud
+<br><br>
+
+
+ <hr>
+<em> Single-cell genomics improves the discovery of risk variants and genes of atrial fibrillation. </em> [Manuscript Expected by September 2020] <br><br> Alan Selewa, Kaixuan Luo, <u>Michael Wasney</u>, Linsin Smith, Xiaotong Sun, Chenwei Tang, Heather Eckart, Ivan P. Moskowitz, Anindita Basu, Xin He & Sebastian Pott  <br><br>
+
+ <hr>
+
+* Denotes equal contribution.
+
+  </DIV>
+
+  <DIV id="contact">
+
+</DIV>
+
+<DIV id="CV">
+
+<h2>Brief CV </h2>
+
+<hr>
+<ul>
+<li><b>Current: PhD Genetics & Genomics, UCLA, 2021-present<br>
+</ul>
+
+<hr>
+I have been fortunate to receive funding support from:<br>
+<a href = "https://www.uclahealth.org/departments/medicine/gastro/microbiome">
+<img src= "glmc.png" width="50%" height="50%" style="float:left margin: 2px"></a>
+  
+<hr>
+[<a href="CV_2025.pdf" class="minlink" onClick="ga('send', 'pageview', 'cv.pdf');">Download full CV</a>]
+  </DIV>
+
+</DIV>
+
+
+</BODY>
+
+</html>
